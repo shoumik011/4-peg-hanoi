@@ -15,7 +15,7 @@ It uses a recursive approach (moveTower() method) to move the disks from the sou
 fourPegTOH(int n) Method:
 Takes an integer n representing the number of disks.
 Implements the Tower of Hanoi solution for 4 pegs.
-Depending on whether n is even or odd, it calls either EvenTower() or OddTower() method to perform the movement of disks. These methods implement the specific strategy described in the assignment handout.
+Depending on whether n is even or odd, it calls either EvenTower() or OddTower() method to perform the movement of disks. 
 
 Helper Methods:
 moveTower(int n, int fromPeg, int toPeg, int auxPeg, ArrayList<Move> moves): Recursive method to move the tower of disks from one peg to another using an auxiliary peg. It adds the moves to the moves list.
